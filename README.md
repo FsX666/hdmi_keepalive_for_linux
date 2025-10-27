@@ -13,11 +13,11 @@ Remember to install tk:
 ```bash
 apt install python3-tk tk tk-dev libtcl8.6 libtk8.6 -y
 ```
-* Create the venv
+* Create the venv python 
 ```bash
 cd $SCRIPTDIR && python3 -m venv venv
 ```
-* Add screeninfo python module:
+* Add screeninfo python module after download the file requirements.txt on venv directory :
 ```bash
-pip install screeninfo
+cd venv && pip install -r requirements.txt
 ```
